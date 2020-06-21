@@ -30,6 +30,51 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--secondary-color) !important;
 }
 
+/* Header */
+header .container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+header .nav-wrap {
+  width: 70%;
+}
+
+header .nav-wrap .navbar-nav {
+  width: 100%;
+}
+
+header .navbar {
+  padding: .5rem 0;
+}
+
+header .navbar-nav .current {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+header .search input {
+  width: 100%;
+  border: 1px solid var(--primary-color);
+}
+
+header .btn.bg-primary:hover {
+  background-color: var(--primary-color) !important;
+  opacity: 0.9;
+}
+
+header .xyz-sm {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+}
+
+/* Section - Hero */
+.hero {
+  background: url('../img/Group\ 59.png') no-repeat center center/cover;
+}
+
 .hero-bg {
   height: 597px;
 }
@@ -43,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
+/* Section - Why Us */
 .why-us {
   text-align: center;
 }
@@ -57,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 5rem;
 }
 
+/* Section Who */
 .who h3, .testimony h3 {
   font-size: 36px;
   margin-bottom: 1rem;
@@ -67,8 +114,21 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 30px;
 }
 
+/* Section - Product */
 .product .product-img {
   height: 440px;
+}
+
+.product .product-img.product1 {
+  background: url('../img/Rectangle\ 11-3.png') no-repeat center center/cover;
+}
+
+.product .product-img.product2 {
+  background: url('../img/skirt-5304133_1280.jpg') no-repeat center center/25vw;
+}
+
+.product .product-img.product3 {
+  background: url('../img/fashion-5205675_1280.jpg') no-repeat center center/cover;
 }
 
 .product h3 {
@@ -87,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #263238;
 }
 
+/* Section - Testimony */
 .testimony h3 {
   color: #fff;
   margin-bottom: 2rem;
