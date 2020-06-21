@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/about.css">
 
     <title>Cart | About</title>
@@ -30,14 +31,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav nav nav-fill">
-                <a class="nav-item nav-link active current" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="index.html">HOME</span></a>
                 <a class="nav-item nav-link" href="products.html">PRODUCTS</a>
-                <a class="nav-item nav-link" href="about.html">ABOUT US</a>
+                <a class="nav-item nav-link active current" href="about.html">ABOUT US <span class="sr-only">(current)</a>
                 <a class="nav-item nav-link" href="contact.html">CONTACT US</a>
                 <a class="nav-item nav-link" href="login.html">SIGN IN</a>
                 <div class="xyz-sm">
                   <a href="register.html" class="btn bg-primary">SIGN UP</a>
-                  <a href="cart.html"><img src="img/icons/noto-v1_shopping-cart.svg" alt="icon-cart"></a>
+                  <a href="cart.html" class="ml-2"><img src="img/icons/noto-v1_shopping-cart.svg" alt="icon-cart"></a>
                 </div>
               </div>
             </div>
@@ -50,11 +51,10 @@
         </div>
         <div class="xyz-lg">
           <a href="register.html" class="btn bg-primary">SIGN UP</a>
-          <a href="cart.html"><img src="img/icons/noto-v1_shopping-cart.svg" alt="icon-cart"></a>
+          <a href="cart.html" class="ml-3"><img src="img/icons/noto-v1_shopping-cart.svg" alt="icon-cart"></a>
         </div>
       </div>
     </header>
-
     
     <!-- Section - Hero -->
     <section class="hero container-fluid bg-secondary">
@@ -71,7 +71,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md">
-            <img src="" alt="icon">
+            <img src="img/icons/support.svg" class="img-fluid mb-3" width="80" alt="icon">
             <p>
               100% Secured Payment <br />
               With 30 days <br />
@@ -79,7 +79,7 @@
             </p>
           </div>
           <div class="col-md">
-            <img src="" alt="icon">
+            <img src="img/icons/support.svg" class="img-fluid mb-3" width="80" alt="icon">
             <p>
               Deliver just at the <br />
               Speed of Light <br />
@@ -87,7 +87,7 @@
             </p>
           </div>
           <div class="col-md">
-            <img src="img/icons/support.svg" class="img-fluid" width="80" alt="icon">
+            <img src="img/icons/support.svg" class="img-fluid mb-3" width="80" alt="icon">
             <p>
               Assisting Our Customers <br />
               for the best <br />
@@ -150,14 +150,17 @@
     <!-- Section - Product Show -->
     <section class="who product-show container-fluid bg-secondary">
       <div class="container">
-        <div class="row">
+        <div class="row d-flex align-items-center">
           <div class="col-md text-center px-5">
             <h3>Watch Our Product <br />Fashion Show</h3>
             <p>In every 3 years, we host a live fashion show of all our design product. 
               This program is to futhure show and tell the story about out product.</p>
           </div>
           <div class="col-md">
-            <img src="" alt="product-fashion-show">
+            <!-- Product Show video -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="900" height="506" src="https://www.youtube.com/embed/CSNve1zdxwo?list=RDCMUCrx5pVziMo1qzF8isicR5SQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -170,7 +173,7 @@
         <div class="row">
           <div class="col-md bg-white">
             <div class="d-flex align-items-center mb-3">
-              <img src="img/test.png" class="img-fluid rounded-circle" alt="testimony">
+              <img src="img/Ellipse (2).png" class="img-fluid rounded-circle" alt="testimony">
               <div>
                 <h6>Christina Mark</h6>
                 <span>USA</span>
@@ -186,7 +189,7 @@
           </div>
           <div class="col-md bg-white">
             <div class="d-flex align-items-center mb-3">
-              <img src="img/test.png" class="img-fluid rounded-circle" alt="testimony">
+              <img src="img/Ellipse (1).png" class="img-fluid rounded-circle" alt="testimony">
               <div>
                 <h6>John Crush</h6>
                 <span>Brazil</span>
@@ -202,7 +205,7 @@
           </div>
           <div class="col-md bg-white">
             <div class="d-flex align-items-center mb-3">
-              <img src="img/test.png" class="img-fluid rounded-circle" alt="testimony">
+              <img src="img/Ellipse (3).png" class="img-fluid rounded-circle" alt="testimony">
               <div>
                 <h6>Mary Cooly</h6>
                 <span>Demark</span>
