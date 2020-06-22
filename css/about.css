@@ -35,12 +35,9 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-.hero {
-  background: url('../img/Group\ 59.png') no-repeat center center/cover;
-}
-
 .hero-bg {
   height: 597px;
+  background: url('../img/Group-59.png') no-repeat center center/cover;
 }
 
 .hero h2 {
