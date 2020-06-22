@@ -192,6 +192,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 3.5rem;
   }
 
+  .product .product-img {
+    height: 270px;
+  }
+
   .testimony .col-md {
     margin-right: 0;
     margin-bottom: 2rem;
