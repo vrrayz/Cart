@@ -1,4 +1,3 @@
-/* Header */
 :root {
   --primary-color: #f69225;
   --secondary-color: #eee;
@@ -31,22 +30,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--secondary-color) !important;
 }
 
-header {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  background: var(--secondary-color);
-}
-
-header nav .current {
-  border-bottom: 2px solid var(--primary-color);
-}
-
-header nav .nav-item {
-  margin-right: 1rem;
-}
-
-header nav .btn.bg-primary {
-  padding-top: 0;
-  padding-bottom: 0;
-  background: var(--primary-color) !important;
+.container {
+  padding-top: 5rem;
 }
