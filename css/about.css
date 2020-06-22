@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Section - Hero */
+.hero .hero-description-sm {
+  display: none;
+}
+
 .hero {
   background: url('../img/Group\ 59.png') no-repeat center center/cover;
 }
@@ -157,6 +161,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  .hero .hero-description-sm {
+    display: block;
+  }
+
   .hero .hero-bg {
     height: 240px;
     background: url('../img/attractive-1846127_1280.jpg') no-repeat center center/cover;
